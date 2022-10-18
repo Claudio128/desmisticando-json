@@ -1,0 +1,13 @@
+// https://thingspeak.com/channels/1638970/field/2.json
+// https://api.thingspeak.com/channels/<channel_id>/feeds.json?results=1
+
+// ./data.json
+
+// configurar GET
+ {
+    method: "GET",
+    headers: { "Content-Type": "application/json" },
+    mode: "cors",
+    cache: "no-cache",
+    referrerPolicy: "no-referrer",
+  }

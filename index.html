@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JSON na prática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- Load Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="https://unpkg.com/chartjs-plugin-colorschemes@0.4.0/dist/chartjs-plugin-colorschemes.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Consumir JSON -->
+    <div style="text-align: center;">
+        <h2>Pokemon API</h2>
+
+        <div style="border: 0.5px solid; border-radius: 8px; text-align: center; width: 50%; margin: 0 auto;">
+            <img id="pokemon-img" width="200" hieght="200" src="" alt="">
+            <h3>Name: <span id="pokemon-name"></span> </h3>
+        </div>
+    </div>
+
+
+    <!-- Chart JS -->
+    <div>
+        <div style="text-align: center;">
+            <h2>Chart JS</h2>
+        </div>
+
+        <div style="display: flex;flex-wrap: wrap; justify-content: center;">
+            <div style="margin: 1em; border-radius: 8px; padding: 3px;border: 0.5px solid; width: 45%;">
+                <canvas id="chart-container" style="height: 250px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Chart JS + API-->
+    <div>
+        <div style="text-align: center;">
+            <h2>Chart JS + API</h2>
+        </div>
+        <div style="display: flex;flex-wrap: wrap; justify-content: center;">
+            <div style="margin: 1em; border-radius: 8px; padding: 3px;border: 0.5px solid; width: 45%;">
+                <canvas id="chart-container-1" style="height: 250px;"></canvas>
+            </div>
+
+            <div style="margin: 1em; border-radius: 8px; padding: 3px;border: 0.5px solid; width: 45%;">
+                <canvas id="chart-container-2" style="height: 250px;"></canvas>
+            </div>
+
+            <div style="margin: 1em; border-radius: 8px; padding: 3px;border: 0.5px solid; width: 45%;">
+                <canvas id="chart-container-3" style="height: 250px;"></canvas>
+            </div>
+
+            <div style="margin: 1em; border-radius: 8px; padding: 3px;border: 0.5px solid; width: 45%;">
+                <canvas id="chart-container-4" style="height: 250px;"></canvas>
+            </div>
+
+            <div style="margin: 1em; border-radius: 8px; padding: 3px;border: 0.5px solid; width: 45%;">
+                <canvas id="chart-container-5" style="height: 250px;"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

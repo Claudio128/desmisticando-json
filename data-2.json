@@ -1,0 +1,22 @@
+{
+    "name": "João Miranda",
+    "age": 23,
+    "isAlive": true,
+    "languages": [
+        "JavaScript",
+        "Java",
+        "Kotlin",
+        "C",
+        "Dart"
+    ],
+    "courses": [
+        {
+            "name": "HTML basics",
+            "year": 2019
+        },
+        {
+            "name": "CSS basics",
+            "year": 2020
+        }
+    ]
+}
