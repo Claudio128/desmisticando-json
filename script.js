@@ -211,7 +211,7 @@ const refresh = () => {
   }, 60000);
 };
 
-// start();
+start();
 
 // ==================== CHART JS =========================== //
 
@@ -256,7 +256,7 @@ function startChartJS(params) {
   });
 }
 
-// startChartJS();
+startChartJS();
 
 // ============================== JSON ====================== //
 
@@ -278,7 +278,7 @@ function startJSON() {
     });
 }
 
-// startJSON();
+startJSON();
 
 // ============================== JSON + DOG API ====================== //
 
@@ -303,7 +303,7 @@ function getPokeApi() {
     });
 }
 
-// getPokeApi();
+getPokeApi();
 
 // ============================== JS functions ====================== //
 
